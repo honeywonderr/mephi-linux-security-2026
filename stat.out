@@ -1,0 +1,27 @@
+  File: /home/user1
+  Size: 200       	Blocks: 0          IO Block: 4096   directory
+Device: 0,33	Inode: 1473        Links: 4
+Access: (0700/drwx------)  Uid: ( 1234/   user1)   Gid: ( 1234/   user1)
+Context: unconfined_u:object_r:user_home_dir_t:s0
+Access: 2026-11-14 16:39:59.638457119 +0000
+Modify: 2026-11-14 17:40:56.888786172 +0000
+Change: 2026-11-14 17:40:56.888786172 +0000
+ Birth: 2026-11-14 16:39:59.638457119 +0000
+  File: /home/liveuser/lab3/mycp
+  Size: 144760    	Blocks: 288        IO Block: 4096   regular file
+Device: 0,34	Inode: 4986        Links: 1
+Access: (4755/-rwsr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Context: unconfined_u:object_r:user_home_t:s0
+Access: 2026-11-14 16:45:45.348782592 +0000
+Modify: 2026-11-14 16:45:02.902000586 +0000
+Change: 2026-11-14 16:45:45.072784051 +0000
+ Birth: 2026-11-14 16:45:02.901000590 +0000
+  File: /home/liveuser/lab4/mypython
+  Size: 11560     	Blocks: 24         IO Block: 4096   regular file
+Device: 0,34	Inode: 5292        Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/liveuser)   Gid: ( 1000/liveuser)
+Context: unconfined_u:object_r:user_home_t:s0
+Access: 2026-11-14 17:35:35.460028675 +0000
+Modify: 2026-11-14 17:35:35.591896102 +0000
+Change: 2026-11-14 17:36:03.678342822 +0000
+ Birth: 2026-11-14 17:35:35.460028675 +0000

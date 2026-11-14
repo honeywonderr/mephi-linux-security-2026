@@ -1,0 +1,46 @@
+    1  echo "375234"
+    2  ls -l
+    3  cd Pictures
+    4  ls -l
+    5  cd Screenshots
+    6  ls -l
+    7  mv ~/Pictures/Screenshots/Screenshot From 2026-11-14 16-24-57.png ~/mephi-screenshot.png
+    8  ls -l ~/mephi-screenshot.png
+    9  mv ~/Pictures/Screenshots/Screenshot From 2026-11-14 16-24-57.png ~/mephi-screenshot.png
+   10  mv ~/Pictures/Screenshots/Screenshot From 2026-11-14 16-24-57.png ~/
+   11  mv ~/Pictures/Screenshots/'Screenshot From 2026-11-14 16-24-57.png' ~/mephi-screenshot.png
+   12  ls -l ~/mephi-screenshot.png
+   13  cd ~/
+   14  groupadd students
+   15  sudo groupadd students
+   16  groups
+   17  root
+   18  su -
+   19  groups
+   20  useradd -u 1234 -G students -m user1
+   21  root
+   22  su -
+   23  id user1
+   24  chage -l user1
+   25  find / -type f -perm -4000 2>/dev/null > ~/suid_files.out
+   26  cat ~/suid_files.out
+   27  ps -eo euid,ruid,comm | awk '$1==0 && $2!=0' > ~/privileged_procs.out
+   28  cat ~/privileged_procs.out
+   29  mkdir -p ~/lab3 && cd ~/lab3
+   30  cp /usr/bin/cp ./mycp
+   31  chown root:root ./mycp
+   32  sudo chown root:root ./mycp
+   33  sudo chmod u+s ./mycp
+   34  su - user1 -c "cp /etc/shadow ~/shadow_copy && echo 'Success'"
+   35  ls -l ~/shadow_copy
+   36  su - user1 -c "cp /etc/shadow ~/shadow_copy && echo 'Success'"
+   37  su -
+   38  mkdir -p ~/lab4 && cd ~/lab4
+   39  cp /usr/bin/python3 ./mypython
+   40  setcap cap_chown+ep ./mypython
+   41  sudo setcap cap_chown+ep ./mypython
+   42  getcap ./mypython
+   43  visudo
+   44  sudo visudo
+   45  su - user1
+   46  history > ~/history.out
